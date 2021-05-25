@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\net_n\Desktop\project\2-2\Class\게임수학\Transform\p4\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>'WinMain'에 대한 주석이 일치하지 않습니다. 이 인스턴스에는 주석 없음이(가) 있습니다. c:\program files (x86)\windows kits\10\include\10.0.18362.0\um\winbase.h(933)을(를) 참조하십시오. </DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>WinMain</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\net_n\Desktop\project\2-2\Class\게임수학\Transform\p4\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>538</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>사용자 지정 생성 및 소멸이 있는 명명되지 않은 개체를 사용하지 않습니다(es.84).</DESCRIPTION>
+    <FUNCTION>TRANSLATE_2D_DlgProc</FUNCTION>
+    <DECORATED>?TRANSLATE_2D_DlgProc@@YAHPEAUHWND__@@I_K_J@Z</DECORATED>
+    <FUNCLINE>512</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
