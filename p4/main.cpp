@@ -76,12 +76,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	WndClass.hInstance = hInstance;
 	WndClass.hIcon = LoadIcon(NULL, IDI_APPLICATION);
 	WndClass.hCursor = LoadCursor(NULL, IDC_ARROW);
-	WndClass.hbrBackground = (HBRUSH)CreateSolidBrush(RGB(120,230,230));
+	WndClass.hbrBackground = (HBRUSH)CreateSolidBrush(RGB(190,190,190));
 	WndClass.lpszMenuName = MAKEINTRESOURCE(IDR_MENU1);
 	WndClass.lpszClassName = "Window Class Name";
 	RegisterClass(&WndClass);
 	hwnd = CreateWindow("Window Class Name",
-		"Window Title Name",
+		"GAME MATH",
 		WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT,
 		CW_USEDEFAULT,
@@ -196,9 +196,6 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg,
 
 			Ellipse(hdc, nowMoonPoint[0].x, nowMoonPoint[0].y, nowMoonPoint[1].x, nowMoonPoint[1].y);
 			DeleteObject(SelectObject(hdc, hOldBrush));
-
-
-			
 		}
 
 		if (lineToPoint_Active)
